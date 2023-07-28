@@ -504,6 +504,198 @@ p>video {
 }
 
 
+/*** 
+=============================================
+    Services Area style
+=============================================
+***/
+
+.services-area {
+    background: #ffffff;
+    position: relative;
+}
+
+.single-service-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.single-service-item .img-holder {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.single-service-item .img-holder img {
+    width: 100%;
+}
+
+.single-service-item .inner-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
+    transform: translate3d(0px, 0%, 0px);
+    transition: all 700ms ease;
+    transition-delay: 0.2s;
+}
+
+.single-service-item:hover .inner-content {
+    transform: translate3d(0px, 99%, 0px);
+    transition-delay: 0.3s;
+}
+
+.single-service-item .inner-content h3 {
+    margin: 9px 0 8px;
+}
+
+.single-service-item .inner-content h3 .title {
+    color: #ffffff;
+    transition: all 500ms ease;
+}
+
+.single-service-item .inner-content h3 .title:hover {
+    color: #d3d3d3;
+}
+
+.single-service-item .inner-content .text {
+    background: #fff;
+    border-bottom: 1px solid #f6f6f6;
+    padding: 20px 0 17px;
+}
+
+.single-service-item .inner-content .text p {
+    margin: 0;
+    line-height: 24px;
+}
+
+.single-service-item .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background: #880808;
+    opacity: 1;
+    padding: 0 10px;
+    transform: translate3d(0px, -100%, 0px);
+    transition: all 700ms ease;
+    transition-delay: 0.3s;
+}
+
+.single-service-item:hover .overlay {
+    transform: translate3d(0px, 0%, 0px);
+    transition-delay: 0.1s;
+}
+
+.single-service-item .overlay .box {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.single-service-item .overlay .box .content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.single-service-item .overlay .overlay-content .icon-holder {
+    margin-bottom: 30px;
+}
+
+.single-service-item .overlay .overlay-content .icon-holder span:before {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.single-service-item .overlay .overlay-content h3 .title {
+    color: #fff;
+    transition: all 500ms ease;
+}
+
+.single-service-item .overlay .overlay-content h3 .title:hover {
+    color: #dddddd;
+}
+
+.single-service-item .overlay .overlay-content .text {
+    margin-top: 17px;
+    margin-bottom: 13px;
+}
+
+.single-service-item .overlay .overlay-content .text p {
+    margin: 0;
+    color: #fff;
+}
+
+.single-service-item .overlay .overlay-content .read-more {
+    overflow: hidden;
+}
+
+.single-service-item .overlay .overlay-content .read-more a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 500ms ease;
+}
+
+.single-service-item .overlay .overlay-content .read-more a:hover {
+    color: #585ea8;
+}
+
+.services-area .owl-controls {
+    position: absolute;
+    right: 0;
+    top: -85px;
+}
+
+.services-area .owl-theme .owl-nav {
+    margin: 0;
+}
+
+.services-area .owl-theme .owl-nav [class*="owl-"] {
+    background: transparent;
+    border-radius: 50%;
+    color: #848484;
+    font-size: 24px;
+    font-weight: 700;
+    height: 45px;
+    line-height: 44px;
+    margin: 0 0 0 0px;
+    padding: 0;
+    width: 45px;
+    border: 2px solid #f2f2f2;
+    transition: all 700ms ease 0s;
+}
+
+.services-area .owl-theme .owl-nav .owl-next {
+    margin-left: 10px;
+}
+
+.services-area .owl-theme .owl-nav [class*="owl-"]:hover {
+    border-color: #484d9a;
+    color: #484d9a;
+}
+
+.sec-pding-one {
+    padding: 52px 0;
+}
+
+.sec-pding-two {
+    padding: 52px 0 30px;
+}
+
+
 /* Forms
 -------------------------------------------------------------- */
 
