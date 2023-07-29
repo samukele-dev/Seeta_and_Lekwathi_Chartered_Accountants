@@ -5,25 +5,6 @@ $font-primary: 'Poppins',
 Arial,
 sans-serif;
 $primary: #ff487e;
-body {
-    font-family: $font-primary;
-    font-size: 14px;
-    line-height: 1.8;
-    font-weight: normal;
-    color: lighten($black, 50%);
-    background: rgba(0, 0, 0, .05);
-}
-
-button {
-    transition: .3s all ease;
-    &:hover,
-    &:focus {
-        text-decoration: none !important;
-        outline: none !important;
-        box-shadow: none !important;
-    }
-}
-
 h1,
 h2,
 h3,
@@ -62,14 +43,6 @@ h5,
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-}
-
-.btn {
-    font-size: 14px;
-    &.btn-primary {
-        background: $primary;
-        border-color: $primary;
-    }
 }
 
 //OWL CAROUSEL
@@ -183,22 +156,6 @@ h5,
         .read {
             color: $black;
             font-size: 14px;
-        }
-    }
-    .meta-date {
-        display: inline-block;
-        background: $dark;
-        span {
-            display: block;
-            color: $white;
-        }
-        .day {
-            font-weight: 700;
-            font-size: 20px;
-        }
-        .mos,
-        .yr {
-            font-size: 13px;
         }
     }
     .meta {

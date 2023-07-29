@@ -49,7 +49,7 @@
 }
 
 .tf-section {
-    padding: 120px 0;
+    padding: 55px 0;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -213,7 +213,7 @@
 -------------------------------------------------------------- */
 
 .flat-title-page.inner {
-    padding: 171px 0 188px;
+    padding: 43px 0 33px;
     position: relative;
     background: url(./../../assets/images/slider/slider-1.jpg) center center no-repeat;
     background-size: cover;
@@ -363,7 +363,7 @@
 .slider .slider-item .content h1 {
     cursor: text;
     text-transform: capitalize;
-    color: #fff;
+    color: #f00;
 }
 
 .slider.home2 .slider-item {
@@ -1151,7 +1151,7 @@
 }
 
 .flat-about.home2 .about-box h2 {
-    margin-bottom: 34px;
+    margin-bottom: 24px;
 }
 
 .flat-about.home2 .about-box h4 {
@@ -1164,7 +1164,7 @@
     border-bottom: 1px solid rgba(35, 38, 41, 0.0705882353);
     padding-right: 85px;
     padding-bottom: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .flat-about.page {
