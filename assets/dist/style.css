@@ -1335,7 +1335,7 @@ header {
 
 #top-bar {
     position: relative;
-    background: #232629;
+    background: #05637C;
     padding: 16.5px 0;
     height: 50px;
 }
@@ -1910,6 +1910,41 @@ header {
     -webkit-transform: rotate3d(0, 0, 1, -45deg);
     -moz-transform: rotate3d(0, 0, 1, -45deg);
     transform: rotate3d(0, 0, 1, -45deg);
+}
+
+.tf-button-submit:hover {
+    opacity: 0.9;
+    color: #fff;
+}
+
+
+/* Additional styles for mobile view navbar */
+
+.mobile-button {
+    display: none !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+}
+
+#main-nav {
+    display: flex !important;
+}
+
+#main-nav.active {
+    display: block !important;
+    flex-direction: column !important;
+}
+
+#main-nav li {
+    margin: 10px 0 !important;
+}
+
+.sub-menu {
+    display: none !important;
+}
+
+.sub-menu.active {
+    display: block !important;
 }
 
 .tf-button-submit:hover {
@@ -2511,18 +2546,6 @@ header {
 .heading-section .title-section {
     position: relative;
     padding-top: 10px;
-}
-
-.heading-section .title-section::before {
-    position: absolute;
-    bottom: -31px;
-    left: 50%;
-    background-color: var(--primary-color3);
-    width: 2px;
-    height: 35px;
-    transform: translateX(-50%);
-    content: "";
-    text-transform: capitalize;
 }
 
 .heading-section.style {

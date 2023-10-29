@@ -992,10 +992,6 @@
     padding: 0;
 }
 
-.flat-practice.home2 .wrap-practice .practice-box .content h1 {
-    color: var(--primary-color8);
-}
-
 .flat-practice.home2 .wrap-practice .practice-box .sc-btn-button .sc-button {
     background: var(--primary-color2);
     -webkit-transition: all 0.3s ease;
@@ -1012,10 +1008,6 @@
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     color: var(--primary-color);
-}
-
-.flat-practice.home2 .wrap-practice .practice-box:hover {
-    background: rgba(194, 151, 101, 0.8980392157);
 }
 
 .flat-practice.home2 .wrap-practice .practice-box:hover .content h3 a {
@@ -1037,7 +1029,6 @@
 
 .flat-about {
     position: relative;
-    padding-bottom: 120px;
 }
 
 .flat-about .mark-a {
@@ -1066,7 +1057,7 @@
 }
 
 .flat-about .about-box {
-    padding: 52px 0px 0 68px;
+    padding: 15px 0px 0 22px;
 }
 
 .flat-about .about-box h2 {
