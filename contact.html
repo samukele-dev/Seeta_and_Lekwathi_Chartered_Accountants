@@ -166,6 +166,64 @@
             display: none;
         }
     }
+    
+    @media (min-width: 768px) {
+        .col-md-6 {
+            padding-left: 60px;
+        }
+    }
+    
+    @media (max-width: 525px) {
+        p {
+            margin-left: 10px !important;
+            margin-right: 10px !important;
+            line-height: 1.5 !important;
+        }
+        .col-md-6 {
+            padding-bottom: 30px;
+        }
+    }
+    
+    .hr.invisible_hr {
+        height: 0;
+        padding: 0;
+    }
+    
+    .hr.big_size_hr {
+        margin: 30px 0;
+    }
+    
+    .hr {
+        clear: both;
+        display: block;
+        font-size: 0;
+        height: 24px;
+        margin: 20px 0;
+        overflow: hidden;
+        padding: 2px 0;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .highlight_secondary {
+        color: #F24046;
+    }
+    
+    .team-role {
+        color: #A4A7AA;
+    }
+    
+    .team .team-image img {
+        border-radius: 50%;
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        color: #05637C !important;
+        font-weight: 700;
+    }
 </style>
 
 <body class="body header-fixed">
@@ -266,76 +324,71 @@
                 </section>
 
                 <section>
-
-
-
                     <div class="container">
                         <div class="text">
-                            <p style="color: #05637C !important; font-weight: 700; margin-left: 50px; margin-bottom:50px; margin-right: 50px; padding: auto; text-align: center;">Are you looking to chat with us? We're here to assist you with any questions or inquiries you may have. Feel free to reach out, and we'll be happy to help you in any way we can.
+                            <p style="color: #05637C !important; font-weight: 700; margin-left: 50px; margin-bottom:20px; margin-right: 50px; padding: auto; line-height: 1.5; text-align: left;"><span style="font-size: 32px;">Want to meet the brilliant team behind S&L?</span><br> For any questions or inquiries you may have. Feel free to reach out, and we'll be happy to help you in any way we can.
                         </div>
-                        <div class="row">
-                            <div class="contact-info">
-                                <div class="contact-info-item">
-                                    <div class="contact-info-icon">
-                                        <i class="fas fa-envelope"></i>
-                                    </div>
+                    </div>
+                    <div id="team" class="text-center section">
+                        <div class="container">
 
-                                    <div class="contact-info-content" style="font-size: larger; font-weight: 700;">
-                                        <h4>S&L</h4>
-                                        <p>info@snlca.com</p>
-                                        <!-- <div class="social-icons">
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                                        </div> -->
-                                    </div>
-                                </div>
-
-                                <div class="contact-info-item">
-                                    <div class="contact-info-icon">
-                                        <i class="fas fa-user"></i>
-                                    </div>
-
-                                    <div class="contact-info-content" style="font-size: larger; font-weight: 700;">
-                                        <h4>CEO Accounting Division</h4>
-                                        <p>Daniel Seeta</p>
-                                        <p>dseeta@snlca.com</p>
-                                        <!-- <div class="social-icons">
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                                        </div> -->
-                                    </div>
-                                </div>
-
-                                <div class="contact-info-item">
-                                    <div class="contact-info-icon">
-                                        <i class="fas fa-user"></i>
-                                    </div>
-
-                                    <div class="contact-info-content" style="font-size: larger; font-weight: 700;">
-                                        <h4>CEO Tax & Advisory Division</h4>
-                                        <p>Lebo Lekgwathi</p>
-                                        <p>llekgwathi@snlca.com</p>
-                                        <!-- <div class="social-icons">
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                                        </div> -->
-                                    </div>
-                                </div>
+                            <div class="hr big_size_hr invisible_hr">
+                                <i class="fa fa-"></i>
                             </div>
-                            <div class="col-lg-6 col-md-5">
-                                <div class="">
-                                    <div class="">
-                                        <img class="image-1 w-100" src="assets/images/box-item/9.jpg" alt="images">
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="team">
+                                        <div class="team-image">
+                                            <img src="assets/images/teams/daniel.png" class="img-circle img-responsive">
+                                        </div>
+                                        <!-- /.team-image -->
+                                        <div class="team-content">
+                                            <p class="text-size" style="font-size: 28px;">Daniel Seeta</p>
+                                            <p>dseeta@snlca.com</p>
+                                            <div class="contact-info-content" style="font-size: larger; font-weight: 700;">
+                                                <h4>CEO Accounting Division </h4>
+                                                <p style="font-size: 12px; line-height: 1.5; text-align: left;">Daniel is a qualified Chartered Accountant with extensive experience in auditing, tax and accounting. He completed his articles with one of the Big Four international audit firms with audit clients across
+                                                    different industries.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <!-- /.team-content -->
                                     </div>
+                                    <!-- /.team -->
                                 </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="team">
+                                        <div class="team-image">
+                                            <img src="assets/images/teams/lebo.png" class="img-circle img-responsive">
+                                        </div>
+                                        <!-- /.team-image -->
+                                        <div class="team-content">
+                                            <p class="text-size" style="font-size: 28px;">Lebo Lekgwathi</p>
+                                            <p>llekgwathi@snlca.com</p>
+                                            <div class="contact-info-content" style="font-size: larger; font-weight: 700;">
+                                                <h4>CEO Tax & Advisory Division </h4>
+                                                <p style="font-size: 12px; line-height: 1.5; text-align: left;">Lebo is a qualified chartered accountant with years of industry experiences. His experience has been in management Accounting, operational accounting, commercial finance, financial planning and analysis
+                                                    and financial modelling.</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.team-content -->
+                                    </div>
+                                    <!-- /.team -->
+                                </div>
+
                             </div>
+
+                            <div class="hr invisible_hr">
+                                <i class="fa fa-"></i>
+                            </div>
+                            <div class="hr big_size_hr invisible_hr">
+                                <i class="fa fa-"></i>
+                            </div>
+
                         </div>
+                        <!-- /.container -->
                     </div>
                 </section>
 
@@ -355,6 +408,12 @@
                 </footer>
                 <!-- /#footer -->
 
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/jquery.easing.js"></script>
+                <script src="assets/js/bootstrap.min.js"></script>
+                <script src="assets/js/jquery.fancybox.js"></script>
+                <script src="assets/js/shortcodes.js"></script>
+                <script src="assets/js/main.js"></script>
 
                 <script>
                     // ===Prealoder===
