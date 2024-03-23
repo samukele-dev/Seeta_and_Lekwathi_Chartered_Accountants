@@ -1169,7 +1169,7 @@
 }
 
 .flat-icon-practice {
-    background: rgba(177, 66, 51, 0.0705882353);
+    background: rgb(255, 255, 255);
     padding-bottom: 90px;
 }
 
@@ -1231,47 +1231,12 @@
     z-index: 999999;
 }
 
-.flat-icon-practice .wrapper-icon:hover .box-icon {
-    background-color: var(--primary-color3) !important;
-}
-
-.flat-icon-practice .wrapper-icon:hover .box-icon svg {
-    fill: #fff;
-    transform: rotateY(180deg);
-}
-
-.flat-icon-practice .wrapper-icon:hover .content {
-    background-color: var(--primary-color3) !important;
-}
-
-.flat-icon-practice .wrapper-icon:hover .content h3 {
-    color: var(--primary-color);
-    z-index: 999;
-}
-
-.flat-icon-practice .wrapper-icon:hover .content i {
-    animation: 0.4s link-icon linear;
-    color: var(--primary-color);
-}
-
 .flat-icon-practice .wrapper-icon.active .box-icon {
     background-color: var(--primary-color3) !important;
 }
 
 .flat-icon-practice .wrapper-icon.active .box-icon svg {
     fill: #fff;
-}
-
-.flat-icon-practice .wrapper-icon.active .content {
-    background-color: var(--primary-color3) !important;
-}
-
-.flat-icon-practice .wrapper-icon.active .content h3 {
-    color: var(--primary-color);
-}
-
-.flat-icon-practice .wrapper-icon.active .content i {
-    color: var(--primary-color);
 }
 
 .flat-icon-practice.page {
